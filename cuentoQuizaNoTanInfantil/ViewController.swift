@@ -10,6 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var vw_ultraView: UIView!
+    
+    var actualPage : PaginaUnoController?
+    
+    override func viewWillAppear(_ animated: Bool) {
+        actualPage = PaginaUnoController()
+        self.addChildViewController(actualPage!)
+        vw_ultraView.addSubview((actualPage?.view)!)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +30,4 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
 }
-

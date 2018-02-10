@@ -14,6 +14,14 @@
 		85F33258202F5D52004B44F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F33256202F5D52004B44F1 /* LaunchScreen.storyboard */; };
 		85F33263202F5D53004B44F1 /* cuentoQuizaNoTanInfantilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F33262202F5D53004B44F1 /* cuentoQuizaNoTanInfantilTests.swift */; };
 		85F3326E202F5D53004B44F1 /* cuentoQuizaNoTanInfantilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3326D202F5D53004B44F1 /* cuentoQuizaNoTanInfantilUITests.swift */; };
+		85F3327C202F5FCA004B44F1 /* PaginaUno.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85F3327B202F5FCA004B44F1 /* PaginaUno.xib */; };
+		85F3327E202F6065004B44F1 /* PaginaUnoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3327D202F6065004B44F1 /* PaginaUnoController.swift */; };
+		85F33283202F79DB004B44F1 /* Pagina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F33282202F79DB004B44F1 /* Pagina.swift */; };
+		85F33285202F7E38004B44F1 /* PaginaDos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85F33284202F7E38004B44F1 /* PaginaDos.xib */; };
+		85F33287202F81DF004B44F1 /* PaginaDosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F33286202F81DF004B44F1 /* PaginaDosController.swift */; };
+		85F33289202F871C004B44F1 /* PaginaTres.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85F33288202F871C004B44F1 /* PaginaTres.xib */; };
+		85F3328B202F8B07004B44F1 /* PaginaTresController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3328A202F8B07004B44F1 /* PaginaTresController.swift */; };
+		85F3328D202F9240004B44F1 /* PaginaCuatro.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85F3328C202F9240004B44F1 /* PaginaCuatro.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		85F33269202F5D53004B44F1 /* cuentoQuizaNoTanInfantilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cuentoQuizaNoTanInfantilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F3326D202F5D53004B44F1 /* cuentoQuizaNoTanInfantilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cuentoQuizaNoTanInfantilUITests.swift; sourceTree = "<group>"; };
 		85F3326F202F5D53004B44F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85F3327B202F5FCA004B44F1 /* PaginaUno.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaUno.xib; sourceTree = "<group>"; };
+		85F3327D202F6065004B44F1 /* PaginaUnoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaUnoController.swift; sourceTree = "<group>"; };
+		85F33282202F79DB004B44F1 /* Pagina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pagina.swift; sourceTree = "<group>"; };
+		85F33284202F7E38004B44F1 /* PaginaDos.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaDos.xib; sourceTree = "<group>"; };
+		85F33286202F81DF004B44F1 /* PaginaDosController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaDosController.swift; sourceTree = "<group>"; };
+		85F33288202F871C004B44F1 /* PaginaTres.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaTres.xib; sourceTree = "<group>"; };
+		85F3328A202F8B07004B44F1 /* PaginaTresController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaTresController.swift; sourceTree = "<group>"; };
+		85F3328C202F9240004B44F1 /* PaginaCuatro.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaCuatro.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +113,9 @@
 		85F3324C202F5D52004B44F1 /* cuentoQuizaNoTanInfantil */ = {
 			isa = PBXGroup;
 			children = (
+				85F33281202F79C2004B44F1 /* Item */,
+				85F33280202F61CC004B44F1 /* Controladores */,
+				85F3327F202F61B8004B44F1 /* Vistas */,
 				85F3324D202F5D52004B44F1 /* AppDelegate.swift */,
 				85F3324F202F5D52004B44F1 /* ViewController.swift */,
 				85F33251202F5D52004B44F1 /* Main.storyboard */,
@@ -123,6 +142,35 @@
 				85F3326F202F5D53004B44F1 /* Info.plist */,
 			);
 			path = cuentoQuizaNoTanInfantilUITests;
+			sourceTree = "<group>";
+		};
+		85F3327F202F61B8004B44F1 /* Vistas */ = {
+			isa = PBXGroup;
+			children = (
+				85F3327B202F5FCA004B44F1 /* PaginaUno.xib */,
+				85F33284202F7E38004B44F1 /* PaginaDos.xib */,
+				85F33288202F871C004B44F1 /* PaginaTres.xib */,
+				85F3328C202F9240004B44F1 /* PaginaCuatro.xib */,
+			);
+			name = Vistas;
+			sourceTree = "<group>";
+		};
+		85F33280202F61CC004B44F1 /* Controladores */ = {
+			isa = PBXGroup;
+			children = (
+				85F3327D202F6065004B44F1 /* PaginaUnoController.swift */,
+				85F33286202F81DF004B44F1 /* PaginaDosController.swift */,
+				85F3328A202F8B07004B44F1 /* PaginaTresController.swift */,
+			);
+			name = Controladores;
+			sourceTree = "<group>";
+		};
+		85F33281202F79C2004B44F1 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				85F33282202F79DB004B44F1 /* Pagina.swift */,
+			);
+			name = Item;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +280,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F3327C202F5FCA004B44F1 /* PaginaUno.xib in Resources */,
+				85F3328D202F9240004B44F1 /* PaginaCuatro.xib in Resources */,
 				85F33258202F5D52004B44F1 /* LaunchScreen.storyboard in Resources */,
 				85F33255202F5D52004B44F1 /* Assets.xcassets in Resources */,
+				85F33285202F7E38004B44F1 /* PaginaDos.xib in Resources */,
 				85F33253202F5D52004B44F1 /* Main.storyboard in Resources */,
+				85F33289202F871C004B44F1 /* PaginaTres.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +311,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F3327E202F6065004B44F1 /* PaginaUnoController.swift in Sources */,
+				85F3328B202F8B07004B44F1 /* PaginaTresController.swift in Sources */,
 				85F33250202F5D52004B44F1 /* ViewController.swift in Sources */,
 				85F3324E202F5D52004B44F1 /* AppDelegate.swift in Sources */,
+				85F33287202F81DF004B44F1 /* PaginaDosController.swift in Sources */,
+				85F33283202F79DB004B44F1 /* Pagina.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
