@@ -20,7 +20,7 @@
                 <outlet property="img_oveja6" destination="enA-aZ-zRR" id="iVv-3T-MFP"/>
                 <outlet property="img_oveja7" destination="y9p-h8-bVA" id="of1-xc-Oi8"/>
                 <outlet property="lbl_Texto" destination="jUG-3M-qnk" id="WDu-fs-eZb"/>
-                <outlet property="tap_oveja6" destination="2OR-6y-9Ck" id="ebm-Zw-4K4"/>
+                <outlet property="vwContenedor" destination="iN0-l3-epB" id="Llq-AS-adj"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

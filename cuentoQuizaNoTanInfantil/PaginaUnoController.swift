@@ -11,6 +11,7 @@ import UIKit
 
 class PaginaUnoController: Pagina {
     
+    @IBOutlet var vwContenedor: UIView!
     @IBOutlet weak var lbl_Texto: UILabel!
     
     @IBOutlet weak var img_mamaOveja: UIImageView!
@@ -22,7 +23,22 @@ class PaginaUnoController: Pagina {
     @IBOutlet weak var img_oveja6: UIImageView!
     @IBOutlet weak var img_oveja7: UIImageView!
     
-    override func viewWillAppear(_ animated: Bool) {
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        inicializar()
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        inicializar()
+    }
+    
+    private func inicializar(){
+        Bundle.main.loadNibNamed("PaginaUno", owner: self, options: nil)
+        addSubview(vwContenedor)
+        vwContenedor.frame = self.bounds
+        vwContenedor.autoresizingMask = [.flexibleHeight, .flexibleWidth]
+        
         img_mamaOveja.isHidden = true
         img_oveja1.isHidden = true
         img_oveja2.isHidden = true
@@ -33,9 +49,9 @@ class PaginaUnoController: Pagina {
         img_oveja7.isHidden = true
     }
     
-    override func viewDidAppear(_ animated: Bool) {
+    func viewDidHadAppear() {
         UIView.animate(withDuration: 0.5, delay: 0, options: [], animations: {
-            self.img_mamaOveja.isHidden = true
+            self.img_mamaOveja.isHidden = false
         }, completion: {_ in
             UIView.animate(withDuration: 0.5, delay: 0, options: [], animations: {
                 self.img_oveja1.isHidden = false

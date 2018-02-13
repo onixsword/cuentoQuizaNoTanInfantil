@@ -11,18 +11,33 @@ import UIKit
 
 class PaginaTresController : Pagina{
     
+    @IBOutlet var vwContenedor: UIView!
     @IBOutlet weak var img_lobo: UIImageView!
     
     var loboPosition : CGPoint?
     
-    override func viewWillAppear(_ animated: Bool) {
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        inicializar()
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        inicializar()
+    }
+    
+    private func inicializar(){
+        Bundle.main.loadNibNamed("PaginaTres", owner: self, options: nil)
+        addSubview(vwContenedor)
+        vwContenedor.frame = self.bounds
+        vwContenedor.autoresizingMask = [.flexibleHeight, .flexibleWidth]
         
         loboPosition = CGPoint(x: img_lobo.center.x, y: img_lobo.center.y)
         
-        img_lobo.center.x =  self.view.bounds.width + img_lobo.bounds.width
+        img_lobo.center.x =  self.bounds.width + img_lobo.bounds.width
     }
     
-    override func viewDidAppear(_ animated: Bool) {
+    func viewDidHadAppear() {
         UIView.animate(withDuration: 1, delay: 0, options: [], animations: {
             self.img_lobo.center = self.loboPosition!
         }, completion: {_ in

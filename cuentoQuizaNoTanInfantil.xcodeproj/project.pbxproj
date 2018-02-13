@@ -21,7 +21,6 @@
 		85F33287202F81DF004B44F1 /* PaginaDosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F33286202F81DF004B44F1 /* PaginaDosController.swift */; };
 		85F33289202F871C004B44F1 /* PaginaTres.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85F33288202F871C004B44F1 /* PaginaTres.xib */; };
 		85F3328B202F8B07004B44F1 /* PaginaTresController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3328A202F8B07004B44F1 /* PaginaTresController.swift */; };
-		85F3328D202F9240004B44F1 /* PaginaCuatro.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85F3328C202F9240004B44F1 /* PaginaCuatro.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +61,6 @@
 		85F33286202F81DF004B44F1 /* PaginaDosController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaDosController.swift; sourceTree = "<group>"; };
 		85F33288202F871C004B44F1 /* PaginaTres.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaTres.xib; sourceTree = "<group>"; };
 		85F3328A202F8B07004B44F1 /* PaginaTresController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaTresController.swift; sourceTree = "<group>"; };
-		85F3328C202F9240004B44F1 /* PaginaCuatro.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaCuatro.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +148,6 @@
 				85F3327B202F5FCA004B44F1 /* PaginaUno.xib */,
 				85F33284202F7E38004B44F1 /* PaginaDos.xib */,
 				85F33288202F871C004B44F1 /* PaginaTres.xib */,
-				85F3328C202F9240004B44F1 /* PaginaCuatro.xib */,
 			);
 			name = Vistas;
 			sourceTree = "<group>";
@@ -281,7 +278,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				85F3327C202F5FCA004B44F1 /* PaginaUno.xib in Resources */,
-				85F3328D202F9240004B44F1 /* PaginaCuatro.xib in Resources */,
 				85F33258202F5D52004B44F1 /* LaunchScreen.storyboard in Resources */,
 				85F33255202F5D52004B44F1 /* Assets.xcassets in Resources */,
 				85F33285202F7E38004B44F1 /* PaginaDos.xib in Resources */,
@@ -561,6 +557,7 @@
 				85F33274202F5D53004B44F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85F33275202F5D53004B44F1 /* Build configuration list for PBXNativeTarget "cuentoQuizaNoTanInfantilTests" */ = {
 			isa = XCConfigurationList;
@@ -569,6 +566,7 @@
 				85F33277202F5D53004B44F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85F33278202F5D53004B44F1 /* Build configuration list for PBXNativeTarget "cuentoQuizaNoTanInfantilUITests" */ = {
 			isa = XCConfigurationList;
@@ -577,6 +575,7 @@
 				85F3327A202F5D53004B44F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

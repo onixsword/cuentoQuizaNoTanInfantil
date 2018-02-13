@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class Pagina : UIViewController{
+class Pagina : UIView{
     
     func bajido(){
         

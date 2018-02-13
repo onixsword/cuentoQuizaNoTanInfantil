@@ -11,6 +11,25 @@ import UIKit
 
 class PaginaDosController : Pagina{
     
+    @IBOutlet var vwContenedor: UIView!
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        inicializar()
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        inicializar()
+    }
+    
+    private func inicializar(){
+        Bundle.main.loadNibNamed("PaginaDos", owner: self, options: nil)
+        addSubview(vwContenedor)
+        vwContenedor.frame = self.bounds
+        vwContenedor.autoresizingMask = [.flexibleHeight, .flexibleWidth]        
+    }
+    
     @IBAction func tap_mamaOveja(_ sender: Any) {
         bajido()
     }
