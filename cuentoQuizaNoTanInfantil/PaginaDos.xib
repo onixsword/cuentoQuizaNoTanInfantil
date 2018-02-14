@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PaginaDosController" customModule="cuentoQuizaNoTanInfantil" customModuleProvider="target">
             <connections>
+                <outlet property="lbl_texto" destination="BpZ-Ss-lDm" id="gGM-Eb-9yb"/>
                 <outlet property="vwContenedor" destination="iN0-l3-epB" id="63U-vC-Dez"/>
             </connections>
         </placeholder>

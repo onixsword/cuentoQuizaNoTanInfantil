@@ -9,13 +9,14 @@
 import Foundation
 import UIKit
 
-class PaginaTresController : Pagina{
+class PaginaCuatroController : Pagina{
     
     @IBOutlet var vwContenedor: UIView!
-    @IBOutlet weak var img_lobo: UIImageView!
+    
+    @IBOutlet weak var img_oveja: UIImageView!
     @IBOutlet weak var lbl_texto: UILabel!
     
-    var loboPosition : CGPoint?
+    var ovejaPos : CGPoint?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -28,30 +29,33 @@ class PaginaTresController : Pagina{
     }
     
     private func inicializar(){
-        Bundle.main.loadNibNamed("PaginaTres", owner: self, options: nil)
+        //WillApear
+        Bundle.main.loadNibNamed("PaginaCuatro", owner: self, options: nil)
         addSubview(vwContenedor)
         vwContenedor.frame = self.bounds
         vwContenedor.autoresizingMask = [.flexibleHeight, .flexibleWidth]
         
-        loboPosition = CGPoint(x: img_lobo.center.x, y: img_lobo.center.y)
-        
-        img_lobo.center.x =  self.bounds.width + img_lobo.bounds.width
+        ovejaPos = CGPoint(x: img_oveja.center.x, y: img_oveja.center.y)
+        img_oveja.center.x = -img_oveja.bounds.width
     }
     
     func viewDidHadAppear() {
-        UIView.animate(withDuration: 1, delay: 0, options: [], animations: {
-            self.img_lobo.center = self.loboPosition!
-        }, completion: {_ in
-            self.toctoc()
-            //animar frames del lobo
-        })
+        //DidAppear
+        UIView.animate(withDuration: 1, animations: {
+            self.img_oveja.center = self.ovejaPos!
+        }, completion: nil)
+    }
+    
+    @IBAction func tap_oveja(_ sender: Any) {
+        bajido()
+    }
+    
+    @IBAction func tap_puerta(_ sender: Any) {
+        toctoc()
     }
     
     @IBAction func tap_lobo(_ sender: Any) {
         aullido()
-    }
-    @IBAction func tap_puerta(_ sender: Any) {
-        toctoc()
     }
     
 }

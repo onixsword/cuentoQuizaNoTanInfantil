@@ -91,81 +91,81 @@ class ViewController: UIViewController {
                 for vista in self.vw_ultraview.subviews{
                     vista.removeFromSuperview()
                 }
-                self.vw_ultraview.addSubview(PaginaUnoController(frame: self.vw_ultraview.bounds))
+                self.vw_ultraview.addSubview(PaginaCuatroController(frame: self.vw_ultraview.bounds))
             }, completion: {_ in //DidAppear
-                (self.vw_ultraview.subviews[0] as! PaginaUnoController).viewDidHadAppear()
+                (self.vw_ultraview.subviews[0] as! PaginaCuatroController).viewDidHadAppear()
             })
         case 5:
             UIView.transition(with: vw_ultraview, duration: 2.0, options: [.transitionCurlDown], animations: {
                 for vista in self.vw_ultraview.subviews{
                     vista.removeFromSuperview()
                 }
-                self.vw_ultraview.addSubview(PaginaUnoController(frame: self.vw_ultraview.bounds))
+                self.vw_ultraview.addSubview(PaginaCincoController(frame: self.vw_ultraview.bounds))
             }, completion: {_ in //DidAppear
-                (self.vw_ultraview.subviews[0] as! PaginaUnoController).viewDidHadAppear()
+                (self.vw_ultraview.subviews[0] as! PaginaCincoController).viewDidHadAppear()
             })
         case 6:
             UIView.transition(with: vw_ultraview, duration: 2.0, options: [.transitionCurlDown], animations: {
                 for vista in self.vw_ultraview.subviews{
                     vista.removeFromSuperview()
                 }
-                self.vw_ultraview.addSubview(PaginaUnoController(frame: self.vw_ultraview.bounds))
+                self.vw_ultraview.addSubview(PaginaSeisController(frame: self.vw_ultraview.bounds))
             }, completion: {_ in //DidAppear
-                (self.vw_ultraview.subviews[0] as! PaginaUnoController).viewDidHadAppear()
+                (self.vw_ultraview.subviews[0] as! PaginaSeisController).viewDidHadAppear()
             })
         case 7:
             UIView.transition(with: vw_ultraview, duration: 2.0, options: [.transitionCurlDown], animations: {
                 for vista in self.vw_ultraview.subviews{
                     vista.removeFromSuperview()
                 }
-                self.vw_ultraview.addSubview(PaginaUnoController(frame: self.vw_ultraview.bounds))
+                self.vw_ultraview.addSubview(PaginaSieteController(frame: self.vw_ultraview.bounds))
             }, completion: {_ in //DidAppear
-                (self.vw_ultraview.subviews[0] as! PaginaUnoController).viewDidHadAppear()
+                (self.vw_ultraview.subviews[0] as! PaginaSieteController).viewDidHadAppear()
             })
         case 8:
             UIView.transition(with: vw_ultraview, duration: 2.0, options: [.transitionCurlDown], animations: {
                 for vista in self.vw_ultraview.subviews{
                     vista.removeFromSuperview()
                 }
-                self.vw_ultraview.addSubview(PaginaUnoController(frame: self.vw_ultraview.bounds))
+                self.vw_ultraview.addSubview(PaginaOchoController(frame: self.vw_ultraview.bounds))
             }, completion: {_ in //DidAppear
-                (self.vw_ultraview.subviews[0] as! PaginaUnoController).viewDidHadAppear()
+                (self.vw_ultraview.subviews[0] as! PaginaOchoController).viewDidHadAppear()
             })
         case 9:
             UIView.transition(with: vw_ultraview, duration: 2.0, options: [.transitionCurlDown], animations: {
                 for vista in self.vw_ultraview.subviews{
                     vista.removeFromSuperview()
                 }
-                self.vw_ultraview.addSubview(PaginaUnoController(frame: self.vw_ultraview.bounds))
+                self.vw_ultraview.addSubview(PaginaNueveController(frame: self.vw_ultraview.bounds))
             }, completion: {_ in //DidAppear
-                (self.vw_ultraview.subviews[0] as! PaginaUnoController).viewDidHadAppear()
+                (self.vw_ultraview.subviews[0] as! PaginaNueveController).viewDidHadAppear()
             })
         case 10:
             UIView.transition(with: vw_ultraview, duration: 2.0, options: [.transitionCurlDown], animations: {
                 for vista in self.vw_ultraview.subviews{
                     vista.removeFromSuperview()
                 }
-                self.vw_ultraview.addSubview(PaginaUnoController(frame: self.vw_ultraview.bounds))
+                self.vw_ultraview.addSubview(PaginaDiezController(frame: self.vw_ultraview.bounds))
             }, completion: {_ in //DidAppear
-                (self.vw_ultraview.subviews[0] as! PaginaUnoController).viewDidHadAppear()
+                (self.vw_ultraview.subviews[0] as! PaginaDiezController).viewDidHadAppear()
             })
         case 11:
             UIView.transition(with: vw_ultraview, duration: 2.0, options: [.transitionCurlDown], animations: {
                 for vista in self.vw_ultraview.subviews{
                     vista.removeFromSuperview()
                 }
-                self.vw_ultraview.addSubview(PaginaUnoController(frame: self.vw_ultraview.bounds))
+                self.vw_ultraview.addSubview(PaginaOnceController(frame: self.vw_ultraview.bounds))
             }, completion: {_ in //DidAppear
-                (self.vw_ultraview.subviews[0] as! PaginaUnoController).viewDidHadAppear()
+                (self.vw_ultraview.subviews[0] as! PaginaOnceController).viewDidHadAppear()
             })
         case 12:
             UIView.transition(with: vw_ultraview, duration: 2.0, options: [.transitionCurlDown], animations: {
                 for vista in self.vw_ultraview.subviews{
                     vista.removeFromSuperview()
                 }
-                self.vw_ultraview.addSubview(PaginaUnoController(frame: self.vw_ultraview.bounds))
+                self.vw_ultraview.addSubview(PaginaDoceController(frame: self.vw_ultraview.bounds))
             }, completion: {_ in //DidAppear
-                (self.vw_ultraview.subviews[0] as! PaginaUnoController).viewDidHadAppear()
+                (self.vw_ultraview.subviews[0] as! PaginaDoceController).viewDidHadAppear()
             })
         default:
             fatalError("Not Implemented")

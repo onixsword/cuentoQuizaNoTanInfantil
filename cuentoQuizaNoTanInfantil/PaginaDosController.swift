@@ -12,6 +12,7 @@ import UIKit
 class PaginaDosController : Pagina{
     
     @IBOutlet var vwContenedor: UIView!
+    @IBOutlet weak var lbl_texto: UILabel!
     
     override init(frame: CGRect) {
         super.init(frame: frame)

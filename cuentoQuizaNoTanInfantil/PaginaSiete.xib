@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PaginaSieteController" customModule="cuentoQuizaNoTanInfantil" customModuleProvider="target">
+            <connections>
+                <outlet property="vwContenedor" destination="iN0-l3-epB" id="kcJ-Iu-HKA"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo_pag5-1" translatesAutoresizingMaskIntoConstraints="NO" id="VgG-GW-AkY" userLabel="img_fondo">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cuando regreso mamá oveja, encontro unicamente a una de sus hijas, que se habia ocultado en el reloj" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eqs-Ee-xBz" userLabel="lbl_Narracion">
+                    <rect key="frame" x="10" y="10" width="984" height="146"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="40"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="reloj" translatesAutoresizingMaskIntoConstraints="NO" id="Fkg-6q-4JB" userLabel="img_reloj">
+                    <rect key="frame" x="669" y="146" width="335" height="407"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="hDj-nl-X2G" appends="YES" id="xFh-9c-Hfv"/>
+                    </connections>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cama" translatesAutoresizingMaskIntoConstraints="NO" id="SQW-Eq-zih" userLabel="img_cama">
+                    <rect key="frame" x="20" y="269" width="488" height="454"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pag7_oveja_sad" translatesAutoresizingMaskIntoConstraints="NO" id="8N8-tb-zlk" userLabel="img_ovejita">
+                    <rect key="frame" x="650" y="418" width="219" height="178"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="kIG-PV-sfC" appends="YES" id="Dzh-nv-jIn"/>
+                    </connections>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pag7_mama_ovejaa" translatesAutoresizingMaskIntoConstraints="NO" id="SIS-aN-rCE" userLabel="img_mamaOveja">
+                    <rect key="frame" x="136" y="269" width="496" height="454"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="Tox-2w-XCn" appends="YES" id="RFT-xw-MhA"/>
+                    </connections>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="VgG-GW-AkY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="RZJ-OA-MWg"/>
+                <constraint firstAttribute="bottom" secondItem="VgG-GW-AkY" secondAttribute="bottom" id="SLI-as-bMb"/>
+                <constraint firstAttribute="trailing" secondItem="VgG-GW-AkY" secondAttribute="trailing" id="cOS-0Y-iel"/>
+                <constraint firstItem="VgG-GW-AkY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="juu-SS-Wv9"/>
+            </constraints>
+        </view>
+        <tapGestureRecognizer id="hDj-nl-X2G" userLabel="tap_reloj">
+            <connections>
+                <action selector="tap_reloj:" destination="-1" id="qGw-X2-Gyq"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="kIG-PV-sfC" userLabel="tap_ovejita">
+            <connections>
+                <action selector="tap_ovejita:" destination="-1" id="ltN-UK-5zE"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="Tox-2w-XCn" userLabel="tap_mamaOveja">
+            <connections>
+                <action selector="tap_mamaOveja:" destination="-1" id="EjZ-5z-bxr"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="cama" width="1080" height="1080"/>
+        <image name="fondo_pag5-1" width="1080" height="720"/>
+        <image name="pag7_mama_ovejaa" width="1080" height="1080"/>
+        <image name="pag7_oveja_sad" width="1080" height="1080"/>
+        <image name="reloj" width="1080" height="1080"/>
+    </resources>
+</document>

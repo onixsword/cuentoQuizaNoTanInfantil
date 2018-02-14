@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85AEC9382034A5BC002D02D1 /* PaginaCuatroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AEC9372034A5BC002D02D1 /* PaginaCuatroController.swift */; };
+		85AEC93A2034A631002D02D1 /* PaginaCincoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AEC9392034A631002D02D1 /* PaginaCincoController.swift */; };
+		85AEC93C2034A642002D02D1 /* PaginaSeisController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AEC93B2034A642002D02D1 /* PaginaSeisController.swift */; };
+		85AEC93E2034A64E002D02D1 /* PaginaSieteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AEC93D2034A64E002D02D1 /* PaginaSieteController.swift */; };
+		85AEC9402034A65F002D02D1 /* PaginaOchoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AEC93F2034A65F002D02D1 /* PaginaOchoController.swift */; };
+		85AEC9422034A66E002D02D1 /* PaginaNueveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AEC9412034A66E002D02D1 /* PaginaNueveController.swift */; };
+		85AEC9442034A687002D02D1 /* PaginaDiezController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AEC9432034A687002D02D1 /* PaginaDiezController.swift */; };
+		85AEC9462034A696002D02D1 /* PaginaOnceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AEC9452034A696002D02D1 /* PaginaOnceController.swift */; };
+		85AEC9482034A6A2002D02D1 /* PaginaDoceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AEC9472034A6A2002D02D1 /* PaginaDoceController.swift */; };
+		85AEC94A2034A70C002D02D1 /* PaginaCuatro.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC9492034A70C002D02D1 /* PaginaCuatro.xib */; };
+		85AEC94C2034A77C002D02D1 /* PaginaCinco.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC94B2034A77C002D02D1 /* PaginaCinco.xib */; };
+		85AEC94E2034A788002D02D1 /* PaginaSeis.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC94D2034A788002D02D1 /* PaginaSeis.xib */; };
+		85AEC9502034A791002D02D1 /* PaginaSiete.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC94F2034A791002D02D1 /* PaginaSiete.xib */; };
+		85AEC9522034A79C002D02D1 /* PaginaOcho.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC9512034A79C002D02D1 /* PaginaOcho.xib */; };
+		85AEC9542034A7AE002D02D1 /* PaginaNueve.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC9532034A7AE002D02D1 /* PaginaNueve.xib */; };
+		85AEC9562034A7BF002D02D1 /* PaginaDiez.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC9552034A7BF002D02D1 /* PaginaDiez.xib */; };
+		85AEC9582034A7D1002D02D1 /* PaginaOnce.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC9572034A7D1002D02D1 /* PaginaOnce.xib */; };
+		85AEC95A2034A7E9002D02D1 /* PaginaDoce.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC9592034A7E9002D02D1 /* PaginaDoce.xib */; };
 		85F3324E202F5D52004B44F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3324D202F5D52004B44F1 /* AppDelegate.swift */; };
 		85F33250202F5D52004B44F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3324F202F5D52004B44F1 /* ViewController.swift */; };
 		85F33253202F5D52004B44F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F33251202F5D52004B44F1 /* Main.storyboard */; };
@@ -41,6 +59,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85AEC9372034A5BC002D02D1 /* PaginaCuatroController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaCuatroController.swift; sourceTree = "<group>"; };
+		85AEC9392034A631002D02D1 /* PaginaCincoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaCincoController.swift; sourceTree = "<group>"; };
+		85AEC93B2034A642002D02D1 /* PaginaSeisController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaSeisController.swift; sourceTree = "<group>"; };
+		85AEC93D2034A64E002D02D1 /* PaginaSieteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaSieteController.swift; sourceTree = "<group>"; };
+		85AEC93F2034A65F002D02D1 /* PaginaOchoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaOchoController.swift; sourceTree = "<group>"; };
+		85AEC9412034A66E002D02D1 /* PaginaNueveController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaNueveController.swift; sourceTree = "<group>"; };
+		85AEC9432034A687002D02D1 /* PaginaDiezController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaDiezController.swift; sourceTree = "<group>"; };
+		85AEC9452034A696002D02D1 /* PaginaOnceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaOnceController.swift; sourceTree = "<group>"; };
+		85AEC9472034A6A2002D02D1 /* PaginaDoceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaDoceController.swift; sourceTree = "<group>"; };
+		85AEC9492034A70C002D02D1 /* PaginaCuatro.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaCuatro.xib; sourceTree = "<group>"; };
+		85AEC94B2034A77C002D02D1 /* PaginaCinco.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaCinco.xib; sourceTree = "<group>"; };
+		85AEC94D2034A788002D02D1 /* PaginaSeis.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaSeis.xib; sourceTree = "<group>"; };
+		85AEC94F2034A791002D02D1 /* PaginaSiete.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaSiete.xib; sourceTree = "<group>"; };
+		85AEC9512034A79C002D02D1 /* PaginaOcho.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaOcho.xib; sourceTree = "<group>"; };
+		85AEC9532034A7AE002D02D1 /* PaginaNueve.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaNueve.xib; sourceTree = "<group>"; };
+		85AEC9552034A7BF002D02D1 /* PaginaDiez.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaDiez.xib; sourceTree = "<group>"; };
+		85AEC9572034A7D1002D02D1 /* PaginaOnce.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaOnce.xib; sourceTree = "<group>"; };
+		85AEC9592034A7E9002D02D1 /* PaginaDoce.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaDoce.xib; sourceTree = "<group>"; };
 		85F3324A202F5D52004B44F1 /* cuentoQuizaNoTanInfantil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cuentoQuizaNoTanInfantil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F3324D202F5D52004B44F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85F3324F202F5D52004B44F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +184,15 @@
 				85F3327B202F5FCA004B44F1 /* PaginaUno.xib */,
 				85F33284202F7E38004B44F1 /* PaginaDos.xib */,
 				85F33288202F871C004B44F1 /* PaginaTres.xib */,
+				85AEC9492034A70C002D02D1 /* PaginaCuatro.xib */,
+				85AEC94B2034A77C002D02D1 /* PaginaCinco.xib */,
+				85AEC94D2034A788002D02D1 /* PaginaSeis.xib */,
+				85AEC94F2034A791002D02D1 /* PaginaSiete.xib */,
+				85AEC9512034A79C002D02D1 /* PaginaOcho.xib */,
+				85AEC9532034A7AE002D02D1 /* PaginaNueve.xib */,
+				85AEC9552034A7BF002D02D1 /* PaginaDiez.xib */,
+				85AEC9572034A7D1002D02D1 /* PaginaOnce.xib */,
+				85AEC9592034A7E9002D02D1 /* PaginaDoce.xib */,
 			);
 			name = Vistas;
 			sourceTree = "<group>";
@@ -158,6 +203,15 @@
 				85F3327D202F6065004B44F1 /* PaginaUnoController.swift */,
 				85F33286202F81DF004B44F1 /* PaginaDosController.swift */,
 				85F3328A202F8B07004B44F1 /* PaginaTresController.swift */,
+				85AEC9372034A5BC002D02D1 /* PaginaCuatroController.swift */,
+				85AEC9392034A631002D02D1 /* PaginaCincoController.swift */,
+				85AEC93B2034A642002D02D1 /* PaginaSeisController.swift */,
+				85AEC93D2034A64E002D02D1 /* PaginaSieteController.swift */,
+				85AEC93F2034A65F002D02D1 /* PaginaOchoController.swift */,
+				85AEC9412034A66E002D02D1 /* PaginaNueveController.swift */,
+				85AEC9432034A687002D02D1 /* PaginaDiezController.swift */,
+				85AEC9452034A696002D02D1 /* PaginaOnceController.swift */,
+				85AEC9472034A6A2002D02D1 /* PaginaDoceController.swift */,
 			);
 			name = Controladores;
 			sourceTree = "<group>";
@@ -278,11 +332,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				85F3327C202F5FCA004B44F1 /* PaginaUno.xib in Resources */,
+				85AEC94A2034A70C002D02D1 /* PaginaCuatro.xib in Resources */,
+				85AEC9502034A791002D02D1 /* PaginaSiete.xib in Resources */,
+				85AEC94E2034A788002D02D1 /* PaginaSeis.xib in Resources */,
+				85AEC95A2034A7E9002D02D1 /* PaginaDoce.xib in Resources */,
 				85F33258202F5D52004B44F1 /* LaunchScreen.storyboard in Resources */,
 				85F33255202F5D52004B44F1 /* Assets.xcassets in Resources */,
+				85AEC94C2034A77C002D02D1 /* PaginaCinco.xib in Resources */,
 				85F33285202F7E38004B44F1 /* PaginaDos.xib in Resources */,
 				85F33253202F5D52004B44F1 /* Main.storyboard in Resources */,
 				85F33289202F871C004B44F1 /* PaginaTres.xib in Resources */,
+				85AEC9562034A7BF002D02D1 /* PaginaDiez.xib in Resources */,
+				85AEC9522034A79C002D02D1 /* PaginaOcho.xib in Resources */,
+				85AEC9582034A7D1002D02D1 /* PaginaOnce.xib in Resources */,
+				85AEC9542034A7AE002D02D1 /* PaginaNueve.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,11 +370,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85AEC9462034A696002D02D1 /* PaginaOnceController.swift in Sources */,
+				85AEC93E2034A64E002D02D1 /* PaginaSieteController.swift in Sources */,
+				85AEC9422034A66E002D02D1 /* PaginaNueveController.swift in Sources */,
+				85AEC9482034A6A2002D02D1 /* PaginaDoceController.swift in Sources */,
 				85F3327E202F6065004B44F1 /* PaginaUnoController.swift in Sources */,
+				85AEC93C2034A642002D02D1 /* PaginaSeisController.swift in Sources */,
 				85F3328B202F8B07004B44F1 /* PaginaTresController.swift in Sources */,
 				85F33250202F5D52004B44F1 /* ViewController.swift in Sources */,
+				85AEC9442034A687002D02D1 /* PaginaDiezController.swift in Sources */,
+				85AEC9402034A65F002D02D1 /* PaginaOchoController.swift in Sources */,
 				85F3324E202F5D52004B44F1 /* AppDelegate.swift in Sources */,
 				85F33287202F81DF004B44F1 /* PaginaDosController.swift in Sources */,
+				85AEC9382034A5BC002D02D1 /* PaginaCuatroController.swift in Sources */,
+				85AEC93A2034A631002D02D1 /* PaginaCincoController.swift in Sources */,
 				85F33283202F79DB004B44F1 /* Pagina.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

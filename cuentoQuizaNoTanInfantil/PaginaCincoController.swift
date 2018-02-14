@@ -9,13 +9,17 @@
 import Foundation
 import UIKit
 
-class PaginaTresController : Pagina{
+class PaginaCincoController : Pagina{
+    
     
     @IBOutlet var vwContenedor: UIView!
-    @IBOutlet weak var img_lobo: UIImageView!
     @IBOutlet weak var lbl_texto: UILabel!
-    
-    var loboPosition : CGPoint?
+    @IBOutlet weak var img_reloj: UIImageView!
+    @IBOutlet weak var img_cama: UIImageView!
+    @IBOutlet weak var img_cocina: UIImageView!
+    @IBOutlet weak var img_mesa: UIImageView!
+    @IBOutlet weak var img_taza: UIImageView!
+    @IBOutlet weak var img_lobo: UIImageView!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -28,30 +32,40 @@ class PaginaTresController : Pagina{
     }
     
     private func inicializar(){
-        Bundle.main.loadNibNamed("PaginaTres", owner: self, options: nil)
+        //WillApear
+        Bundle.main.loadNibNamed("PaginaCinco", owner: self, options: nil)
         addSubview(vwContenedor)
         vwContenedor.frame = self.bounds
         vwContenedor.autoresizingMask = [.flexibleHeight, .flexibleWidth]
         
-        loboPosition = CGPoint(x: img_lobo.center.x, y: img_lobo.center.y)
-        
-        img_lobo.center.x =  self.bounds.width + img_lobo.bounds.width
     }
     
     func viewDidHadAppear() {
-        UIView.animate(withDuration: 1, delay: 0, options: [], animations: {
-            self.img_lobo.center = self.loboPosition!
-        }, completion: {_ in
-            self.toctoc()
-            //animar frames del lobo
-        })
+        //DidAppear
     }
     
     @IBAction func tap_lobo(_ sender: Any) {
         aullido()
     }
-    @IBAction func tap_puerta(_ sender: Any) {
-        toctoc()
+    
+    @IBAction func tap_cocina(_ sender: Any) {
+        bajido()
+        //cambia imagen
+    }
+    
+    @IBAction func tap_mesa(_ sender: Any) {
+        bajido()
+        //cambia imagen
+    }
+    
+    @IBAction func tap_cama(_ sender: Any) {
+        bajido()
+        //cambia imagen
+    }
+    
+    @IBAction func tap_taza(_ sender: Any) {
+        bajido()
+        //cambia imagen
     }
     
 }
