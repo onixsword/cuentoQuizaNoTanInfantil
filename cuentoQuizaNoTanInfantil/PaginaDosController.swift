@@ -14,6 +14,7 @@ class PaginaDosController : Pagina{
     @IBOutlet var vwContenedor: UIView!
     @IBOutlet weak var lbl_texto: UILabel!
     
+    @IBOutlet weak var img_Oveja: UIImageView!
     override init(frame: CGRect) {
         super.init(frame: frame)
         inicializar()
@@ -25,10 +26,30 @@ class PaginaDosController : Pagina{
     }
     
     private func inicializar(){
+        
+        var ovejaCabeza1 : UIImage
+        var ovejaCabeza2 : UIImage
+        var ovejaCabeza3 : UIImage
+        
+        var images : [UIImage]
+        var animatedImages : UIImage
+        
+        ovejaCabeza1 = UIImage(named: "front")!
+        ovejaCabeza2 = UIImage(named: "front_left")!
+        ovejaCabeza3 = UIImage(named: "front_right")!
+        
+        images = [ovejaCabeza1, ovejaCabeza2, ovejaCabeza3]
+        
+        animatedImages = UIImage.animatedImage(with: images, duration: 0.5)!
+        
+    
+        
         Bundle.main.loadNibNamed("PaginaDos", owner: self, options: nil)
         addSubview(vwContenedor)
         vwContenedor.frame = self.bounds
-        vwContenedor.autoresizingMask = [.flexibleHeight, .flexibleWidth]        
+        vwContenedor.autoresizingMask = [.flexibleHeight, .flexibleWidth]
+        
+        img_Oveja.image = animatedImages
     }
     
     @IBAction func tap_mamaOveja(_ sender: Any) {

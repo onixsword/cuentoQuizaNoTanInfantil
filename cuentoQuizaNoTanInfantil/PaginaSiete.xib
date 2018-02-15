@@ -41,7 +41,7 @@
                     <rect key="frame" x="20" y="269" width="488" height="454"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pag7_oveja_sad" translatesAutoresizingMaskIntoConstraints="NO" id="8N8-tb-zlk" userLabel="img_ovejita">
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pag7_oveja_sad" translatesAutoresizingMaskIntoConstraints="NO" id="8N8-tb-zlk" userLabel="img_ovejita">
                     <rect key="frame" x="650" y="418" width="219" height="178"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <gestureRecognizers/>
@@ -49,7 +49,7 @@
                         <outletCollection property="gestureRecognizers" destination="kIG-PV-sfC" appends="YES" id="Dzh-nv-jIn"/>
                     </connections>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pag7_mama_ovejaa" translatesAutoresizingMaskIntoConstraints="NO" id="SIS-aN-rCE" userLabel="img_mamaOveja">
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pag7_mama_ovejaa" translatesAutoresizingMaskIntoConstraints="NO" id="SIS-aN-rCE" userLabel="img_mamaOveja">
                     <rect key="frame" x="136" y="269" width="496" height="454"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <gestureRecognizers/>

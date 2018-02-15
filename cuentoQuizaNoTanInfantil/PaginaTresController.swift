@@ -28,6 +28,7 @@ class PaginaTresController : Pagina{
     }
     
     private func inicializar(){
+
         Bundle.main.loadNibNamed("PaginaTres", owner: self, options: nil)
         addSubview(vwContenedor)
         vwContenedor.frame = self.bounds
@@ -36,6 +37,22 @@ class PaginaTresController : Pagina{
         loboPosition = CGPoint(x: img_lobo.center.x, y: img_lobo.center.y)
         
         img_lobo.center.x =  self.bounds.width + img_lobo.bounds.width
+        
+        var loboPuerta1 : UIImage
+        var loboPuerta2 : UIImage
+        
+        var images : [UIImage]
+        var animatedImages : UIImage
+        
+        loboPuerta1 = UIImage(named: "lobo_puerta1")!
+        loboPuerta2 = UIImage(named: "lobo_puerta2")!
+        
+        images = [loboPuerta1, loboPuerta2]
+        
+        animatedImages = UIImage.animatedImage(with: images, duration: 0.5)!
+        
+        img_lobo.image = animatedImages
+        
     }
     
     func viewDidHadAppear() {

@@ -36,4 +36,11 @@ class PaginaOnceController : Pagina{
         //DidAppear
     }
     
+    @IBAction func tap_lobo(_ sender: Any) {
+        aullido()
+    }
+    
+    @IBAction func tap_pond(_ sender: Any) {
+        plop()
+    }
 }

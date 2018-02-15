@@ -25,6 +25,46 @@
 		85AEC9562034A7BF002D02D1 /* PaginaDiez.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC9552034A7BF002D02D1 /* PaginaDiez.xib */; };
 		85AEC9582034A7D1002D02D1 /* PaginaOnce.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC9572034A7D1002D02D1 /* PaginaOnce.xib */; };
 		85AEC95A2034A7E9002D02D1 /* PaginaDoce.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC9592034A7E9002D02D1 /* PaginaDoce.xib */; };
+		85AEC95E2034F99A002D02D1 /* fondo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC95C2034F99A002D02D1 /* fondo.mp3 */; };
+		85AEC95F2034F99A002D02D1 /* ronquido.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC95D2034F99A002D02D1 /* ronquido.mp3 */; };
+		85AEC96C2034FA21002D02D1 /* narrador1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC9602034FA21002D02D1 /* narrador1.wav */; };
+		85AEC96D2034FA21002D02D1 /* narrador2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC9612034FA21002D02D1 /* narrador2.wav */; };
+		85AEC96E2034FA21002D02D1 /* narrador3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC9622034FA21002D02D1 /* narrador3.wav */; };
+		85AEC96F2034FA21002D02D1 /* narrador4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC9632034FA21002D02D1 /* narrador4.wav */; };
+		85AEC9702034FA21002D02D1 /* narrador5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC9642034FA21002D02D1 /* narrador5.wav */; };
+		85AEC9712034FA21002D02D1 /* narrador6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC9652034FA21002D02D1 /* narrador6.wav */; };
+		85AEC9722034FA21002D02D1 /* narrador7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC9662034FA21002D02D1 /* narrador7.wav */; };
+		85AEC9732034FA21002D02D1 /* narrador8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC9672034FA21002D02D1 /* narrador8.wav */; };
+		85AEC9742034FA21002D02D1 /* narrador9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC9682034FA21002D02D1 /* narrador9.wav */; };
+		85AEC9752034FA21002D02D1 /* narrador10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC9692034FA21002D02D1 /* narrador10.wav */; };
+		85AEC9762034FA21002D02D1 /* narrador11.wav in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC96A2034FA21002D02D1 /* narrador11.wav */; };
+		85AEC9772034FA21002D02D1 /* narrador12.wav in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC96B2034FA21002D02D1 /* narrador12.wav */; };
+		85AEC97C2034FCF2002D02D1 /* toctoc.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC9782034FCF2002D02D1 /* toctoc.mp3 */; };
+		85AEC97D2034FCF2002D02D1 /* bajido.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC9792034FCF2002D02D1 /* bajido.mp3 */; };
+		85AEC97E2034FCF2002D02D1 /* plop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC97A2034FCF2002D02D1 /* plop.mp3 */; };
+		85AEC97F2034FCF2002D02D1 /* aullido.wav in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC97B2034FCF2002D02D1 /* aullido.wav */; };
+		85AEC98820350BF9002D02D1 /* fondo_pag5.ai in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC98120350BF9002D02D1 /* fondo_pag5.ai */; };
+		85AEC98920350BF9002D02D1 /* lobo.ai in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC98220350BF9002D02D1 /* lobo.ai */; };
+		85AEC98A20350BF9002D02D1 /* lobo2.ai in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC98320350BF9002D02D1 /* lobo2.ai */; };
+		85AEC98B20350BF9002D02D1 /* lobo3.ai in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC98420350BF9002D02D1 /* lobo3.ai */; };
+		85AEC98C20350BF9002D02D1 /* muebles_pag5.ai in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC98520350BF9002D02D1 /* muebles_pag5.ai */; };
+		85AEC98D20350BF9002D02D1 /* muebles2_pag5.ai in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC98620350BF9002D02D1 /* muebles2_pag5.ai */; };
+		85AEC98E20350BF9002D02D1 /* ovejas.ai in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC98720350BF9002D02D1 /* ovejas.ai */; };
+		85AEC99E20350C0D002D02D1 /* farm bg.ai in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC98F20350C0D002D02D1 /* farm bg.ai */; };
+		85AEC99F20350C0D002D02D1 /* fondo_pag1.ai in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC99020350C0D002D02D1 /* fondo_pag1.ai */; };
+		85AEC9A020350C0D002D02D1 /* fondo_pag2.ai in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC99120350C0D002D02D1 /* fondo_pag2.ai */; };
+		85AEC9A120350C0D002D02D1 /* fondo_pag3.ai in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC99220350C0D002D02D1 /* fondo_pag3.ai */; };
+		85AEC9A220350C0D002D02D1 /* fondo_pag8.ai in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC99320350C0D002D02D1 /* fondo_pag8.ai */; };
+		85AEC9A320350C0D002D02D1 /* fondo_pag10.ai in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC99420350C0D002D02D1 /* fondo_pag10.ai */; };
+		85AEC9A420350C0D002D02D1 /* lobo_acostado.ai in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC99520350C0D002D02D1 /* lobo_acostado.ai */; };
+		85AEC9A520350C0D002D02D1 /* lobo_acostado2.ai in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC99620350C0D002D02D1 /* lobo_acostado2.ai */; };
+		85AEC9A620350C0D002D02D1 /* lobo_p11-12.ai in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC99720350C0D002D02D1 /* lobo_p11-12.ai */; };
+		85AEC9A720350C0D002D02D1 /* lobo_pag12.ai in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC99820350C0D002D02D1 /* lobo_pag12.ai */; };
+		85AEC9A820350C0D002D02D1 /* ovejas2.ai in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC99920350C0D002D02D1 /* ovejas2.ai */; };
+		85AEC9A920350C0D002D02D1 /* ovejas3.ai in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC99A20350C0D002D02D1 /* ovejas3.ai */; };
+		85AEC9AA20350C0D002D02D1 /* pag6_ejemplo.ai in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC99B20350C0D002D02D1 /* pag6_ejemplo.ai */; };
+		85AEC9AB20350C0D002D02D1 /* pag7_ejemplo.ai in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC99C20350C0D002D02D1 /* pag7_ejemplo.ai */; };
+		85AEC9AC20350C0D002D02D1 /* piedras.ai in Resources */ = {isa = PBXBuildFile; fileRef = 85AEC99D20350C0D002D02D1 /* piedras.ai */; };
 		85F3324E202F5D52004B44F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3324D202F5D52004B44F1 /* AppDelegate.swift */; };
 		85F33250202F5D52004B44F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F3324F202F5D52004B44F1 /* ViewController.swift */; };
 		85F33253202F5D52004B44F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F33251202F5D52004B44F1 /* Main.storyboard */; };
@@ -77,6 +117,46 @@
 		85AEC9552034A7BF002D02D1 /* PaginaDiez.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaDiez.xib; sourceTree = "<group>"; };
 		85AEC9572034A7D1002D02D1 /* PaginaOnce.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaOnce.xib; sourceTree = "<group>"; };
 		85AEC9592034A7E9002D02D1 /* PaginaDoce.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaDoce.xib; sourceTree = "<group>"; };
+		85AEC95C2034F99A002D02D1 /* fondo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fondo.mp3; sourceTree = "<group>"; };
+		85AEC95D2034F99A002D02D1 /* ronquido.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ronquido.mp3; sourceTree = "<group>"; };
+		85AEC9602034FA21002D02D1 /* narrador1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = narrador1.wav; sourceTree = "<group>"; };
+		85AEC9612034FA21002D02D1 /* narrador2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = narrador2.wav; sourceTree = "<group>"; };
+		85AEC9622034FA21002D02D1 /* narrador3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = narrador3.wav; sourceTree = "<group>"; };
+		85AEC9632034FA21002D02D1 /* narrador4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = narrador4.wav; sourceTree = "<group>"; };
+		85AEC9642034FA21002D02D1 /* narrador5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = narrador5.wav; sourceTree = "<group>"; };
+		85AEC9652034FA21002D02D1 /* narrador6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = narrador6.wav; sourceTree = "<group>"; };
+		85AEC9662034FA21002D02D1 /* narrador7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = narrador7.wav; sourceTree = "<group>"; };
+		85AEC9672034FA21002D02D1 /* narrador8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = narrador8.wav; sourceTree = "<group>"; };
+		85AEC9682034FA21002D02D1 /* narrador9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = narrador9.wav; sourceTree = "<group>"; };
+		85AEC9692034FA21002D02D1 /* narrador10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = narrador10.wav; sourceTree = "<group>"; };
+		85AEC96A2034FA21002D02D1 /* narrador11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = narrador11.wav; sourceTree = "<group>"; };
+		85AEC96B2034FA21002D02D1 /* narrador12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = narrador12.wav; sourceTree = "<group>"; };
+		85AEC9782034FCF2002D02D1 /* toctoc.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = toctoc.mp3; sourceTree = "<group>"; };
+		85AEC9792034FCF2002D02D1 /* bajido.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bajido.mp3; sourceTree = "<group>"; };
+		85AEC97A2034FCF2002D02D1 /* plop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = plop.mp3; sourceTree = "<group>"; };
+		85AEC97B2034FCF2002D02D1 /* aullido.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = aullido.wav; sourceTree = "<group>"; };
+		85AEC98120350BF9002D02D1 /* fondo_pag5.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fondo_pag5.ai; sourceTree = "<group>"; };
+		85AEC98220350BF9002D02D1 /* lobo.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lobo.ai; sourceTree = "<group>"; };
+		85AEC98320350BF9002D02D1 /* lobo2.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lobo2.ai; sourceTree = "<group>"; };
+		85AEC98420350BF9002D02D1 /* lobo3.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lobo3.ai; sourceTree = "<group>"; };
+		85AEC98520350BF9002D02D1 /* muebles_pag5.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = muebles_pag5.ai; sourceTree = "<group>"; };
+		85AEC98620350BF9002D02D1 /* muebles2_pag5.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = muebles2_pag5.ai; sourceTree = "<group>"; };
+		85AEC98720350BF9002D02D1 /* ovejas.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ovejas.ai; sourceTree = "<group>"; };
+		85AEC98F20350C0D002D02D1 /* farm bg.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "farm bg.ai"; sourceTree = "<group>"; };
+		85AEC99020350C0D002D02D1 /* fondo_pag1.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fondo_pag1.ai; sourceTree = "<group>"; };
+		85AEC99120350C0D002D02D1 /* fondo_pag2.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fondo_pag2.ai; sourceTree = "<group>"; };
+		85AEC99220350C0D002D02D1 /* fondo_pag3.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fondo_pag3.ai; sourceTree = "<group>"; };
+		85AEC99320350C0D002D02D1 /* fondo_pag8.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fondo_pag8.ai; sourceTree = "<group>"; };
+		85AEC99420350C0D002D02D1 /* fondo_pag10.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fondo_pag10.ai; sourceTree = "<group>"; };
+		85AEC99520350C0D002D02D1 /* lobo_acostado.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lobo_acostado.ai; sourceTree = "<group>"; };
+		85AEC99620350C0D002D02D1 /* lobo_acostado2.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lobo_acostado2.ai; sourceTree = "<group>"; };
+		85AEC99720350C0D002D02D1 /* lobo_p11-12.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "lobo_p11-12.ai"; sourceTree = "<group>"; };
+		85AEC99820350C0D002D02D1 /* lobo_pag12.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lobo_pag12.ai; sourceTree = "<group>"; };
+		85AEC99920350C0D002D02D1 /* ovejas2.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ovejas2.ai; sourceTree = "<group>"; };
+		85AEC99A20350C0D002D02D1 /* ovejas3.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ovejas3.ai; sourceTree = "<group>"; };
+		85AEC99B20350C0D002D02D1 /* pag6_ejemplo.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pag6_ejemplo.ai; sourceTree = "<group>"; };
+		85AEC99C20350C0D002D02D1 /* pag7_ejemplo.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pag7_ejemplo.ai; sourceTree = "<group>"; };
+		85AEC99D20350C0D002D02D1 /* piedras.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = piedras.ai; sourceTree = "<group>"; };
 		85F3324A202F5D52004B44F1 /* cuentoQuizaNoTanInfantil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cuentoQuizaNoTanInfantil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F3324D202F5D52004B44F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85F3324F202F5D52004B44F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +204,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85AEC95B2034F981002D02D1 /* Sonidos */ = {
+			isa = PBXGroup;
+			children = (
+				85AEC9782034FCF2002D02D1 /* toctoc.mp3 */,
+				85AEC9792034FCF2002D02D1 /* bajido.mp3 */,
+				85AEC97A2034FCF2002D02D1 /* plop.mp3 */,
+				85AEC97B2034FCF2002D02D1 /* aullido.wav */,
+				85AEC95C2034F99A002D02D1 /* fondo.mp3 */,
+				85AEC95D2034F99A002D02D1 /* ronquido.mp3 */,
+				85AEC9602034FA21002D02D1 /* narrador1.wav */,
+				85AEC9612034FA21002D02D1 /* narrador2.wav */,
+				85AEC9622034FA21002D02D1 /* narrador3.wav */,
+				85AEC9632034FA21002D02D1 /* narrador4.wav */,
+				85AEC9642034FA21002D02D1 /* narrador5.wav */,
+				85AEC9652034FA21002D02D1 /* narrador6.wav */,
+				85AEC9662034FA21002D02D1 /* narrador7.wav */,
+				85AEC9672034FA21002D02D1 /* narrador8.wav */,
+				85AEC9682034FA21002D02D1 /* narrador9.wav */,
+				85AEC9692034FA21002D02D1 /* narrador10.wav */,
+				85AEC96A2034FA21002D02D1 /* narrador11.wav */,
+				85AEC96B2034FA21002D02D1 /* narrador12.wav */,
+			);
+			name = Sonidos;
+			sourceTree = "<group>";
+		};
+		85AEC98020350BE4002D02D1 /* Recursos */ = {
+			isa = PBXGroup;
+			children = (
+				85AEC98120350BF9002D02D1 /* fondo_pag5.ai */,
+				85AEC98220350BF9002D02D1 /* lobo.ai */,
+				85AEC98320350BF9002D02D1 /* lobo2.ai */,
+				85AEC98420350BF9002D02D1 /* lobo3.ai */,
+				85AEC98520350BF9002D02D1 /* muebles_pag5.ai */,
+				85AEC98620350BF9002D02D1 /* muebles2_pag5.ai */,
+				85AEC98720350BF9002D02D1 /* ovejas.ai */,
+				85AEC98F20350C0D002D02D1 /* farm bg.ai */,
+				85AEC99020350C0D002D02D1 /* fondo_pag1.ai */,
+				85AEC99120350C0D002D02D1 /* fondo_pag2.ai */,
+				85AEC99220350C0D002D02D1 /* fondo_pag3.ai */,
+				85AEC99320350C0D002D02D1 /* fondo_pag8.ai */,
+				85AEC99420350C0D002D02D1 /* fondo_pag10.ai */,
+				85AEC99520350C0D002D02D1 /* lobo_acostado.ai */,
+				85AEC99620350C0D002D02D1 /* lobo_acostado2.ai */,
+				85AEC99720350C0D002D02D1 /* lobo_p11-12.ai */,
+				85AEC99820350C0D002D02D1 /* lobo_pag12.ai */,
+				85AEC99920350C0D002D02D1 /* ovejas2.ai */,
+				85AEC99A20350C0D002D02D1 /* ovejas3.ai */,
+				85AEC99B20350C0D002D02D1 /* pag6_ejemplo.ai */,
+				85AEC99C20350C0D002D02D1 /* pag7_ejemplo.ai */,
+				85AEC99D20350C0D002D02D1 /* piedras.ai */,
+			);
+			name = Recursos;
+			sourceTree = "<group>";
+		};
 		85F33241202F5D52004B44F1 = {
 			isa = PBXGroup;
 			children = (
@@ -147,12 +281,12 @@
 		85F3324C202F5D52004B44F1 /* cuentoQuizaNoTanInfantil */ = {
 			isa = PBXGroup;
 			children = (
+				85AEC98020350BE4002D02D1 /* Recursos */,
+				85AEC95B2034F981002D02D1 /* Sonidos */,
 				85F33281202F79C2004B44F1 /* Item */,
 				85F33280202F61CC004B44F1 /* Controladores */,
 				85F3327F202F61B8004B44F1 /* Vistas */,
 				85F3324D202F5D52004B44F1 /* AppDelegate.swift */,
-				85F3324F202F5D52004B44F1 /* ViewController.swift */,
-				85F33251202F5D52004B44F1 /* Main.storyboard */,
 				85F33254202F5D52004B44F1 /* Assets.xcassets */,
 				85F33256202F5D52004B44F1 /* LaunchScreen.storyboard */,
 				85F33259202F5D52004B44F1 /* Info.plist */,
@@ -181,6 +315,7 @@
 		85F3327F202F61B8004B44F1 /* Vistas */ = {
 			isa = PBXGroup;
 			children = (
+				85F33251202F5D52004B44F1 /* Main.storyboard */,
 				85F3327B202F5FCA004B44F1 /* PaginaUno.xib */,
 				85F33284202F7E38004B44F1 /* PaginaDos.xib */,
 				85F33288202F871C004B44F1 /* PaginaTres.xib */,
@@ -200,6 +335,7 @@
 		85F33280202F61CC004B44F1 /* Controladores */ = {
 			isa = PBXGroup;
 			children = (
+				85F3324F202F5D52004B44F1 /* ViewController.swift */,
 				85F3327D202F6065004B44F1 /* PaginaUnoController.swift */,
 				85F33286202F81DF004B44F1 /* PaginaDosController.swift */,
 				85F3328A202F8B07004B44F1 /* PaginaTresController.swift */,
@@ -331,19 +467,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85AEC9732034FA21002D02D1 /* narrador8.wav in Resources */,
 				85F3327C202F5FCA004B44F1 /* PaginaUno.xib in Resources */,
+				85AEC9A320350C0D002D02D1 /* fondo_pag10.ai in Resources */,
+				85AEC9A720350C0D002D02D1 /* lobo_pag12.ai in Resources */,
+				85AEC96C2034FA21002D02D1 /* narrador1.wav in Resources */,
+				85AEC9AC20350C0D002D02D1 /* piedras.ai in Resources */,
+				85AEC9A520350C0D002D02D1 /* lobo_acostado2.ai in Resources */,
 				85AEC94A2034A70C002D02D1 /* PaginaCuatro.xib in Resources */,
 				85AEC9502034A791002D02D1 /* PaginaSiete.xib in Resources */,
 				85AEC94E2034A788002D02D1 /* PaginaSeis.xib in Resources */,
 				85AEC95A2034A7E9002D02D1 /* PaginaDoce.xib in Resources */,
+				85AEC97D2034FCF2002D02D1 /* bajido.mp3 in Resources */,
 				85F33258202F5D52004B44F1 /* LaunchScreen.storyboard in Resources */,
+				85AEC9772034FA21002D02D1 /* narrador12.wav in Resources */,
+				85AEC9722034FA21002D02D1 /* narrador7.wav in Resources */,
+				85AEC9A020350C0D002D02D1 /* fondo_pag2.ai in Resources */,
+				85AEC98D20350BF9002D02D1 /* muebles2_pag5.ai in Resources */,
 				85F33255202F5D52004B44F1 /* Assets.xcassets in Resources */,
 				85AEC94C2034A77C002D02D1 /* PaginaCinco.xib in Resources */,
+				85AEC98820350BF9002D02D1 /* fondo_pag5.ai in Resources */,
+				85AEC9742034FA21002D02D1 /* narrador9.wav in Resources */,
+				85AEC9752034FA21002D02D1 /* narrador10.wav in Resources */,
+				85AEC95F2034F99A002D02D1 /* ronquido.mp3 in Resources */,
+				85AEC96D2034FA21002D02D1 /* narrador2.wav in Resources */,
+				85AEC98C20350BF9002D02D1 /* muebles_pag5.ai in Resources */,
+				85AEC9762034FA21002D02D1 /* narrador11.wav in Resources */,
+				85AEC99F20350C0D002D02D1 /* fondo_pag1.ai in Resources */,
 				85F33285202F7E38004B44F1 /* PaginaDos.xib in Resources */,
 				85F33253202F5D52004B44F1 /* Main.storyboard in Resources */,
+				85AEC9A120350C0D002D02D1 /* fondo_pag3.ai in Resources */,
 				85F33289202F871C004B44F1 /* PaginaTres.xib in Resources */,
+				85AEC98920350BF9002D02D1 /* lobo.ai in Resources */,
+				85AEC98E20350BF9002D02D1 /* ovejas.ai in Resources */,
+				85AEC99E20350C0D002D02D1 /* farm bg.ai in Resources */,
 				85AEC9562034A7BF002D02D1 /* PaginaDiez.xib in Resources */,
+				85AEC9A620350C0D002D02D1 /* lobo_p11-12.ai in Resources */,
+				85AEC96E2034FA21002D02D1 /* narrador3.wav in Resources */,
+				85AEC96F2034FA21002D02D1 /* narrador4.wav in Resources */,
+				85AEC9A820350C0D002D02D1 /* ovejas2.ai in Resources */,
+				85AEC97E2034FCF2002D02D1 /* plop.mp3 in Resources */,
+				85AEC97C2034FCF2002D02D1 /* toctoc.mp3 in Resources */,
+				85AEC97F2034FCF2002D02D1 /* aullido.wav in Resources */,
+				85AEC9A920350C0D002D02D1 /* ovejas3.ai in Resources */,
+				85AEC9A220350C0D002D02D1 /* fondo_pag8.ai in Resources */,
+				85AEC9702034FA21002D02D1 /* narrador5.wav in Resources */,
+				85AEC98A20350BF9002D02D1 /* lobo2.ai in Resources */,
+				85AEC95E2034F99A002D02D1 /* fondo.mp3 in Resources */,
+				85AEC9712034FA21002D02D1 /* narrador6.wav in Resources */,
+				85AEC9AA20350C0D002D02D1 /* pag6_ejemplo.ai in Resources */,
 				85AEC9522034A79C002D02D1 /* PaginaOcho.xib in Resources */,
+				85AEC98B20350BF9002D02D1 /* lobo3.ai in Resources */,
+				85AEC9A420350C0D002D02D1 /* lobo_acostado.ai in Resources */,
+				85AEC9AB20350C0D002D02D1 /* pag7_ejemplo.ai in Resources */,
 				85AEC9582034A7D1002D02D1 /* PaginaOnce.xib in Resources */,
 				85AEC9542034A7AE002D02D1 /* PaginaNueve.xib in Resources */,
 			);

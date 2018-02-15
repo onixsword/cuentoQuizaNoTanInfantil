@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PaginaDosController" customModule="cuentoQuizaNoTanInfantil" customModuleProvider="target">
             <connections>
+                <outlet property="img_Oveja" destination="YLm-eo-MBg" id="Qb8-hr-kqq"/>
                 <outlet property="lbl_texto" destination="BpZ-Ss-lDm" id="gGM-Eb-9yb"/>
                 <outlet property="vwContenedor" destination="iN0-l3-epB" id="63U-vC-Dez"/>
             </connections>
@@ -31,7 +32,7 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="front" translatesAutoresizingMaskIntoConstraints="NO" id="YLm-eo-MBg" userLabel="img_mamaOveja">
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="front" translatesAutoresizingMaskIntoConstraints="NO" id="YLm-eo-MBg" userLabel="img_mamaOveja">
                     <rect key="frame" x="269" y="183" width="435" height="436"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <gestureRecognizers/>
@@ -39,7 +40,7 @@
                         <outletCollection property="gestureRecognizers" destination="zKp-GH-sC4" appends="YES" id="j8H-F4-GH5"/>
                     </connections>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja_back" translatesAutoresizingMaskIntoConstraints="NO" id="j8q-IM-iei" userLabel="img_oveja1">
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja_back" translatesAutoresizingMaskIntoConstraints="NO" id="j8q-IM-iei" userLabel="img_oveja1">
                     <rect key="frame" x="534" y="558" width="212" height="190"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <gestureRecognizers/>
@@ -47,7 +48,7 @@
                         <outletCollection property="gestureRecognizers" destination="a6q-b4-wze" appends="YES" id="EqD-8N-4MI"/>
                     </connections>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja_puerta1" translatesAutoresizingMaskIntoConstraints="NO" id="0wO-n4-b5Y" userLabel="img_oveja2">
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja_puerta1" translatesAutoresizingMaskIntoConstraints="NO" id="0wO-n4-b5Y" userLabel="img_oveja2">
                     <rect key="frame" x="53" y="401" width="236" height="211"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <gestureRecognizers/>
@@ -55,7 +56,7 @@
                         <outletCollection property="gestureRecognizers" destination="A1K-jT-Vqm" appends="YES" id="OVE-iy-Rc0"/>
                     </connections>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ovejas2" translatesAutoresizingMaskIntoConstraints="NO" id="aaK-Hf-jfe" userLabel="img_oveja3">
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ovejas2" translatesAutoresizingMaskIntoConstraints="NO" id="aaK-Hf-jfe" userLabel="img_oveja3">
                     <rect key="frame" x="705" y="409" width="212" height="190"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <gestureRecognizers/>
@@ -63,7 +64,7 @@
                         <outletCollection property="gestureRecognizers" destination="D54-5Y-XRh" appends="YES" id="1P7-0m-wTt"/>
                     </connections>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja1" translatesAutoresizingMaskIntoConstraints="NO" id="xn2-l6-T2P" userLabel="img_oveja4">
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja1" translatesAutoresizingMaskIntoConstraints="NO" id="xn2-l6-T2P" userLabel="img_oveja4">
                     <rect key="frame" x="135" y="498" width="212" height="190"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <gestureRecognizers/>
@@ -71,7 +72,7 @@
                         <outletCollection property="gestureRecognizers" destination="8IH-MX-1t2" appends="YES" id="41l-7u-FKX"/>
                     </connections>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ovejas3" translatesAutoresizingMaskIntoConstraints="NO" id="oSd-im-QNC" userLabel="img_oveja5">
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ovejas3" translatesAutoresizingMaskIntoConstraints="NO" id="oSd-im-QNC" userLabel="img_oveja5">
                     <rect key="frame" x="690" y="507" width="185" height="173"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <gestureRecognizers/>
@@ -79,7 +80,7 @@
                         <outletCollection property="gestureRecognizers" destination="ykH-dR-MhP" appends="YES" id="W77-3I-hpc"/>
                     </connections>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja_back" translatesAutoresizingMaskIntoConstraints="NO" id="bO4-dL-vjA" userLabel="img_oveja6">
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja_back" translatesAutoresizingMaskIntoConstraints="NO" id="bO4-dL-vjA" userLabel="img_oveja6">
                     <rect key="frame" x="280" y="548" width="224" height="210"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <gestureRecognizers/>
@@ -87,7 +88,7 @@
                         <outletCollection property="gestureRecognizers" destination="cPZ-vj-zMI" appends="YES" id="dAc-q4-lgk"/>
                     </connections>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja_back" translatesAutoresizingMaskIntoConstraints="NO" id="0H5-y3-nul" userLabel="img_oveja7">
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja_back" translatesAutoresizingMaskIntoConstraints="NO" id="0H5-y3-nul" userLabel="img_oveja7">
                     <rect key="frame" x="430" y="598" width="179" height="170"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <gestureRecognizers/>

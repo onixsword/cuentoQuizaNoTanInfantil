@@ -36,31 +36,31 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pag6_lobo_cerrado" translatesAutoresizingMaskIntoConstraints="NO" id="Vzh-QS-Zg1">
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pag6_lobo_cerrado" translatesAutoresizingMaskIntoConstraints="NO" id="Vzh-QS-Zg1">
                     <rect key="frame" x="535" y="303" width="531" height="465"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja_puerta2" translatesAutoresizingMaskIntoConstraints="NO" id="RTX-zM-CXY">
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja_puerta2" translatesAutoresizingMaskIntoConstraints="NO" id="RTX-zM-CXY">
                     <rect key="frame" x="382" y="597" width="184" height="139"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja_puerta2" translatesAutoresizingMaskIntoConstraints="NO" id="CTC-WX-r5o">
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja_puerta2" translatesAutoresizingMaskIntoConstraints="NO" id="CTC-WX-r5o">
                     <rect key="frame" x="201" y="552" width="158" height="115"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja1" translatesAutoresizingMaskIntoConstraints="NO" id="btf-2X-Tod">
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja1" translatesAutoresizingMaskIntoConstraints="NO" id="btf-2X-Tod">
                     <rect key="frame" x="170" y="609" width="167" height="114"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja_puerta3" translatesAutoresizingMaskIntoConstraints="NO" id="Bkz-NL-yRc">
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja_puerta3" translatesAutoresizingMaskIntoConstraints="NO" id="Bkz-NL-yRc">
                     <rect key="frame" x="26" y="539" width="155" height="148"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja_puerta1" translatesAutoresizingMaskIntoConstraints="NO" id="TzP-qD-P1I">
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja_puerta1" translatesAutoresizingMaskIntoConstraints="NO" id="TzP-qD-P1I">
                     <rect key="frame" x="20" y="631" width="114" height="103"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja1" translatesAutoresizingMaskIntoConstraints="NO" id="YPh-5f-9qU">
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja1" translatesAutoresizingMaskIntoConstraints="NO" id="YPh-5f-9qU">
                     <rect key="frame" x="419" y="537" width="136" height="130"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>

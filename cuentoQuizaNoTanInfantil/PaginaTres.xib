@@ -24,7 +24,7 @@
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo_pag3-1" translatesAutoresizingMaskIntoConstraints="NO" id="Ssl-1D-HLK" userLabel="img_fondo">
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lobo_puerta2" translatesAutoresizingMaskIntoConstraints="NO" id="OSr-ue-hhZ" userLabel="img_lobo">
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lobo_puerta2" translatesAutoresizingMaskIntoConstraints="NO" id="OSr-ue-hhZ" userLabel="img_lobo">
                     <rect key="frame" x="333" y="109" width="671" height="741"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <gestureRecognizers/>

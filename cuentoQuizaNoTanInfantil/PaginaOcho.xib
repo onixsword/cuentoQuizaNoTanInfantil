@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PaginaOchoController" customModule="cuentoQuizaNoTanInfantil" customModuleProvider="target">
+            <connections>
+                <outlet property="img_lobo" destination="UQc-d8-STH" id="phK-nG-ukf"/>
+                <outlet property="lbl_texto" destination="1Sc-pP-M1H" id="jav-cE-qfN"/>
+                <outlet property="vwContenedor" destination="iN0-l3-epB" id="7kI-sm-xpm"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo_pag8.1" translatesAutoresizingMaskIntoConstraints="NO" id="qOC-uL-Mlh" userLabel="img_fondo">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cuando ya no le quedaban mas lagrimas, salio al campo en compañía de su pequeña y encontro al lobo debajo de un arbol" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Sc-pP-M1H" userLabel="lbl_Narracion">
+                    <rect key="frame" x="10" y="10" width="984" height="146"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="40"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lobo_resp_0" translatesAutoresizingMaskIntoConstraints="NO" id="UQc-d8-STH" userLabel="img_lobo">
+                    <rect key="frame" x="598" y="562" width="314" height="256"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="Czd-3i-whc" appends="YES" id="Fiz-1Y-nKp"/>
+                    </connections>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja7" translatesAutoresizingMaskIntoConstraints="NO" id="esM-WB-IQi" userLabel="img_mamaOveja">
+                    <rect key="frame" x="31" y="527" width="278" height="221"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="HWE-nM-1cD" appends="YES" id="qyj-16-wNx"/>
+                    </connections>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja1" translatesAutoresizingMaskIntoConstraints="NO" id="YSn-gh-a1v" userLabel="img_ovejita">
+                    <rect key="frame" x="197" y="630" width="191" height="118"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="6Hr-Xn-dOS" appends="YES" id="PxH-7t-NzG"/>
+                    </connections>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="qOC-uL-Mlh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="7QG-qw-Zy8"/>
+                <constraint firstAttribute="bottom" secondItem="qOC-uL-Mlh" secondAttribute="bottom" id="dw9-xI-Cbc"/>
+                <constraint firstAttribute="trailing" secondItem="qOC-uL-Mlh" secondAttribute="trailing" id="ijR-Wj-31C"/>
+                <constraint firstItem="qOC-uL-Mlh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="x9U-a4-lxA"/>
+            </constraints>
+        </view>
+        <tapGestureRecognizer id="Czd-3i-whc" userLabel="tap_lobo">
+            <connections>
+                <action selector="tap_lobo:" destination="-1" id="Hch-sX-yPp"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="HWE-nM-1cD" userLabel="tap_mamaLobo">
+            <connections>
+                <action selector="tap_mamaOveja:" destination="-1" id="FaK-F4-EUB"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="6Hr-Xn-dOS" userLabel="tap_ovejita">
+            <connections>
+                <action selector="tap_ovejita:" destination="-1" id="2nq-33-gpT"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="fondo_pag8.1" width="1080" height="720"/>
+        <image name="lobo_resp_0" width="1080" height="1080"/>
+        <image name="oveja1" width="1080" height="1080"/>
+        <image name="oveja7" width="1080" height="1080"/>
+    </resources>
+</document>

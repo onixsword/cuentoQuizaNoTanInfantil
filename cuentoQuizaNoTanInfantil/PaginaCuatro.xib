@@ -24,7 +24,7 @@
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo_pag4" translatesAutoresizingMaskIntoConstraints="NO" id="aBa-gf-juW">
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja_puerta1" translatesAutoresizingMaskIntoConstraints="NO" id="V33-BS-Vmq">
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oveja_puerta1" translatesAutoresizingMaskIntoConstraints="NO" id="V33-BS-Vmq">
                     <rect key="frame" x="-110" y="266" width="761" height="717"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <gestureRecognizers/>

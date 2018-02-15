@@ -18,7 +18,55 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo_pag8.2" translatesAutoresizingMaskIntoConstraints="NO" id="npQ-0c-jJ5">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Al acercarse a tomar agua al lago, el lobo se cayo y por el peso de las piedras hundio en el lago" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bPM-S9-c2t" userLabel="lbl_Narracion">
+                    <rect key="frame" x="10" y="10" width="984" height="146"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="40"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aeD-G0-Ce8">
+                    <rect key="frame" x="0.0" y="493" width="423" height="242"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="GNZ-j1-Hk9" appends="YES" id="YE6-9n-L0R"/>
+                    </connections>
+                </view>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pag12_lobopng" translatesAutoresizingMaskIntoConstraints="NO" id="ag9-rR-gos" userLabel="img_lobo">
+                    <rect key="frame" x="107" y="566" width="68" height="69"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="aFx-rN-pc7" appends="YES" id="9da-mc-iuU"/>
+                    </connections>
+                </imageView>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="npQ-0c-jJ5" secondAttribute="bottom" id="ElS-iN-nit"/>
+                <constraint firstItem="npQ-0c-jJ5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="hEH-nN-d2H"/>
+                <constraint firstAttribute="trailing" secondItem="npQ-0c-jJ5" secondAttribute="trailing" id="p84-hq-yTg"/>
+                <constraint firstItem="npQ-0c-jJ5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="zeL-Qd-gBf"/>
+            </constraints>
         </view>
+        <tapGestureRecognizer id="aFx-rN-pc7" userLabel="tap_lobo">
+            <connections>
+                <action selector="tap_lobo:" destination="-1" id="3Mf-w8-k8N"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="GNZ-j1-Hk9" userLabel="tap_pond">
+            <connections>
+                <action selector="tap_pond:" destination="-1" id="S72-tX-yYi"/>
+            </connections>
+        </tapGestureRecognizer>
     </objects>
+    <resources>
+        <image name="fondo_pag8.2" width="1080" height="720"/>
+        <image name="pag12_lobopng" width="1081" height="1080"/>
+    </resources>
 </document>

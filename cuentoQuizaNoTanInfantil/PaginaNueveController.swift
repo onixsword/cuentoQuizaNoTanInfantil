@@ -32,6 +32,8 @@ class PaginaNueveController : Pagina{
         
     }
     
+    
+    
     func viewDidHadAppear() {
         //DidAppear
     }
